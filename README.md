@@ -1,7 +1,7 @@
 # Chrome OS Camera Architecture :innocent:
-**System Overview**
+### System Overview ###
 ![cros_camera_stack](https://github.com/SarahWang729/Internal-Camera-Architecture/assets/111257156/37cc9710-2767-410f-8719-25022b43d987)
-## Content ##
+# Content #
 - Hardware
 - Kernel (V4L2)
   - Introduction to V4L
@@ -16,3 +16,13 @@
   - Terminology Explanation
   - The overall workflow of Application
 - Source and Reference
+## Documentation ##
+USB Video Class (UVC) camera implementation guide [Microsoft Official Document](https://learn.microsoft.com/en-us/windows-hardware/drivers/stream/uvc-camera-implementation-guide)
+## Hardware ##
+## Kernel ##
+### Introduction to V4L ###
+### V4L Commands to Interact with Video Devices ###
+Install V4L2:
+```
+sudo apt install v4l-utils
+```
